@@ -65,6 +65,8 @@ tables are licensed under CC BY 4.0 (see `DATA_LICENSE.md`). Third-party data,
 annotations and derived portions retain their original terms; these grants do
 not relicense third-party rights.
 
-Cite this repository and the exact commit used; author metadata are provided in
-`CITATION.cff`. A Zenodo DOI will be recorded only after a real archive has been
-published; no DOI is currently claimed.
+Cite the version 1.0.0 archive at https://doi.org/10.5281/zenodo.22177891.
+It contains the 147-file processed-input release corresponding to Git commit
+`5ee1b3440682ab48dea1e80c9a3e0be3fcd84657`; subsequent citation-documentation
+updates do not change its archived files. Author metadata and the archive DOI
+are provided in `CITATION.cff`. Cite original source studies as well.
