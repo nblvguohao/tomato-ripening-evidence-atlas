@@ -1,0 +1,7 @@
+sample_id,sra_experiment,sra_run,condition,genotype,stage,tissue,cultivar,biological_replicate,inclusion_status,analysis_role
+GSM6433190,SRX16873011,SRR20853799,WT_34DPA,wild_type,34_dpa_breaker,fruit,Ailsa_Craig,1,admitted,specificity_panel_perturbation_expression
+GSM6433191,SRX16873012,SRR20853798,WT_34DPA,wild_type,34_dpa_breaker,fruit,Ailsa_Craig,2,admitted,specificity_panel_perturbation_expression
+GSM6433192,SRX16873013,SRR20853797,WT_34DPA,wild_type,34_dpa_breaker,fruit,Ailsa_Craig,3,admitted,specificity_panel_perturbation_expression
+GSM6433196,SRX16873017,SRR20853793,dml2-3_34DPA,dml2-3_mutant,34_dpa_breaker,fruit,Ailsa_Craig,1,admitted,specificity_panel_perturbation_expression
+GSM6433197,SRX16873018,SRR20853792,dml2-3_34DPA,dml2-3_mutant,34_dpa_breaker,fruit,Ailsa_Craig,2,admitted,specificity_panel_perturbation_expression
+GSM6433198,SRX16873019,SRR20853791,dml2-3_34DPA,dml2-3_mutant,34_dpa_breaker,fruit,Ailsa_Craig,3,admitted,specificity_panel_perturbation_expression

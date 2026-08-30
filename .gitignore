@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+reproduced/
+data/raw/
+*.fastq*
+*.bam
+*.sam
+*.sra
+*.docx
+*.pdf
+.DS_Store

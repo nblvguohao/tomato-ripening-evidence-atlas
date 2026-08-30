@@ -1,0 +1,2 @@
+cohort_id,matrix_path,metadata_path,raw_data_url,reference_release,assay,cultivar,tissue,filter_column,filter_value,early_ordinal,late_ordinal,replicate_type,processing_status,independence_group,analysis_role,admission_status,exclusion_reason
+GSE78733,data/processed/GSE78733_rank01.csv.gz,data/processed/GSE78733_sample_metadata.csv,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE78733,GPL21525_archived_Solyc_annotation,microarray,unknown,pericarp,genotype,WT,1,3,biological,platform_normalized,independent_lab_7,frozen_external_validation,eligible,

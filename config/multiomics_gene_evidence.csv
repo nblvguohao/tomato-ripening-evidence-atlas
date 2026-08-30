@@ -1,0 +1,3 @@
+gene_id,evidence_layer,assay,effect_direction,context,source_id,source_url,biological_replicates,admission_status,claim_boundary,independent_perturbation_support
+Solyc01g095080,chromatin,ChIP-qPCR,binding_only,ripening_tomato_fruit,PMC3039564;GSE40257,https://pmc.ncbi.nlm.nih.gov/articles/PMC3039564/,not_reported_in_seed,admitted,Promoter occupancy only; no activation magnitude or regulatory sign inferred,false
+Solyc08g005770,chromatin,ChIP-seq_H3K27me3_and_expression,reported_activation_in_overexpression_context,SlJMJ6_overexpression_tomato_fruit,GSE142714;Li2020,https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.16590/,three_per_group_reported,admitted,Association is restricted to the reported SlJMJ6 overexpression fruit context,false
