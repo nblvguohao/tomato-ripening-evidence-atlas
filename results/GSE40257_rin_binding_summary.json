@@ -1,0 +1,25 @@
+{
+  "source_id": "GSE40257",
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE40257",
+  "assay": "RIN ChIP-chip",
+  "source_biological_replicates": 3,
+  "admission_rule": "PEAK_FDR <= 0.05 in at least 2 independent replicate peak-to-feature tables",
+  "array_gene_universe": 35494,
+  "genes_with_any_source_peak": 2986,
+  "genes_admitted_binding": 1399,
+  "signature_evidence_rows_including_below_threshold": 80,
+  "signature_genes_admitted_binding": 50,
+  "signature_enrichment": {
+    "signature_genes_in_array_universe": 463,
+    "bound_genes_in_array_universe": 1397,
+    "signature_bound_genes": 50,
+    "odds_ratio": 3.0274432826242874,
+    "fisher_p_value": 1.4529161720667275e-10,
+    "table_signature_bound": 50,
+    "table_signature_unbound": 413,
+    "table_nonsignature_bound": 1347,
+    "table_nonsignature_unbound": 33684
+  },
+  "claim_boundary": "Binding evidence is not assigned regulatory direction and cannot independently establish direct transcriptional regulation.",
+  "four_cohort_consensus_genes_admitted_binding": 44
+}

@@ -1,0 +1,14 @@
+{
+  "scope": "Study-level cross-platform aggregation; samples are never pooled across cohorts.",
+  "contrast_strata_count": 8,
+  "cohort_count": 7,
+  "independence_group_count": 7,
+  "fitted_gene_count": 46509,
+  "frozen_signature_gene_count": 464,
+  "bootstrap_draws": 500,
+  "top_k": 200,
+  "studyshield_beats_all_baselines_by_spearman_in_cohorts": 0,
+  "held_out_cohort_count": 7,
+  "method_superiority_gate_passed": false,
+  "claim_boundary": "If the superiority gate fails, StudyShield is retained only as an atlas integration score."
+}

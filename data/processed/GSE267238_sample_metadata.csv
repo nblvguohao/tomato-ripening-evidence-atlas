@@ -1,0 +1,13 @@
+sample_id,study_id,genotype,stage,stage_ordinal,replicate,include_primary
+A_35_1,GSE267238,WT,mature_green,0,1,True
+A_35_2,GSE267238,WT,mature_green,0,2,True
+A_35_3,GSE267238,WT,mature_green,0,3,True
+A_38_1,GSE267238,WT,breaker,1,1,True
+A_38_2,GSE267238,WT,breaker,1,2,True
+A_38_3,GSE267238,WT,breaker,1,3,True
+cr_35_1,GSE267238,cr_mutant,mature_green,0,1,True
+cr_35_2,GSE267238,cr_mutant,mature_green,0,2,True
+cr_35_3,GSE267238,cr_mutant,mature_green,0,3,True
+cr_38_1,GSE267238,cr_mutant,breaker,1,1,True
+cr_38_2,GSE267238,cr_mutant,breaker,1,2,True
+cr_38_3,GSE267238,cr_mutant,breaker,1,3,True

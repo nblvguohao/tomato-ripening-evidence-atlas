@@ -1,0 +1,34 @@
+{
+  "source": "PXD051570 / PMC13220761 Tables S1-S2",
+  "context": "Ailsa Craig pericarp, BR+8 versus mature green, three biological replicates per stage",
+  "quantified_protein_genes": 8888,
+  "signature_protein_genes_measured": 203,
+  "signature_protein_direction_concordance": 0.9605911330049262,
+  "direction_permutation_p": 0.000999000999000999,
+  "protein_differential_enrichment": {
+    "signature_overlap": 159,
+    "background_target_count": 2640,
+    "odds_ratio": 9.036275695284159,
+    "fisher_greater_p": 1.755623881846185e-47,
+    "full_signature_measured_count": 203,
+    "matched_signature_eligible_count": 432,
+    "matched_signature_measured_count": 190,
+    "matched_signature_target_count": 147,
+    "signature_measured_rate": 0.7736842105263158,
+    "matched_null_empirical_p": 0.003996003996003996
+  },
+  "phosphosite_differential_enrichment": {
+    "signature_overlap": 46,
+    "background_target_count": 2177,
+    "odds_ratio": 0.9011169661084327,
+    "fisher_greater_p": 0.7549157494382934,
+    "full_signature_measured_count": 203,
+    "matched_signature_eligible_count": 432,
+    "matched_signature_measured_count": 190,
+    "matched_signature_target_count": 43,
+    "signature_measured_rate": 0.22631578947368422,
+    "matched_null_empirical_p": 0.5264735264735265
+  },
+  "independent_protein_support_gate": true,
+  "claim_boundary": "Protein abundance and phosphosite correspondence support cross-layer association, not transcriptional causality."
+}

@@ -1,0 +1,10 @@
+sample_id,study_id,title,genotype,stage,stage_ordinal,replicate
+GSM1049874,GSE42783,AC_MG_rep1,WT,mature_green,0,1
+GSM1049875,GSE42783,AC_MG_rep2,WT,mature_green,0,2
+GSM1049876,GSE42783,AC_MG_rep3,WT,mature_green,0,3
+GSM1049877,GSE42783,AC_T_rep1,WT,turning,1,1
+GSM1049878,GSE42783,AC_T_rep2,WT,turning,1,2
+GSM1049879,GSE42783,AC_T_rep3,WT,turning,1,3
+GSM1049880,GSE42783,AC_RR_rep1,WT,red_ripe,3,1
+GSM1049881,GSE42783,AC_RR_rep2,WT,red_ripe,3,2
+GSM1049882,GSE42783,AC_RR_rep3,WT,red_ripe,3,3

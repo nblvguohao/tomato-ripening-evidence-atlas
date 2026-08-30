@@ -1,0 +1,5 @@
+sample_id,study_id,genotype,stage,stage_ordinal,replicate,include_primary
+ACLP1,GSE235023,AC_exocarp,mature_green,0,1,True
+ACLP2,GSE235023,AC_exocarp,mature_green,0,2,True
+ACHP1,GSE235023,AC_exocarp,red_ripe,1,1,True
+ACHP2,GSE235023,AC_exocarp,red_ripe,1,2,True

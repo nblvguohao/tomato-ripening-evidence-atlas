@@ -1,0 +1,30 @@
+{
+  "resource_version": "hr_submission_bundle_v1",
+  "candidate_count": 35,
+  "grade_counts": {
+    "A": 18,
+    "B": 15,
+    "C": 2
+  },
+  "four_cohort_consensus_candidates": 33,
+  "protein_direction_concordant_candidates": 20,
+  "differential_protein_candidates": 16,
+  "differential_phosphosite_candidates": 7,
+  "lower_in_rin1": 25,
+  "higher_in_rin1": 10,
+  "annotation_theme_counts": {
+    "Cell wall and proteolysis": 4,
+    "Defence and stress response": 4,
+    "Ethylene and ripening transcription": 3,
+    "Flavour and specialised metabolism": 5,
+    "Genome and protein homeostasis": 5,
+    "Hormone and growth signalling": 6,
+    "Limited functional annotation": 4,
+    "Photosynthetic and organellar metabolism": 3,
+    "Plastid light adaptation": 1
+  },
+  "literature_screened_grade_a_candidates": 18,
+  "literature_pending_grade_a_candidates": 0,
+  "grading_excludes_studyshield": true,
+  "claim_boundary": "Evidence grades prioritise candidates and do not establish direct causality, regulatory sign, or mechanism."
+}

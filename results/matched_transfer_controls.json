@@ -1,0 +1,197 @@
+{
+  "scope": "Effect-matched control gene sets for frozen-signature transfer. The signature was selected on the absolute GSE42783 red-ripe-minus-mature-green effect, so transfer statistics are reported against controls sharing that selection variable, source expression level, and gene length. Signature membership, reference direction and cohort roles are unchanged.",
+  "frozen_signature_genes": 464,
+  "draws": 1000,
+  "seed": 20260828,
+  "covariates": [
+    "absolute GSE42783 source effect",
+    "GSE42783 endpoint mean level",
+    "log10 Ensembl Plants release-63 gene length"
+  ],
+  "rank_control_definition": "genes ranked 501-1000 by absolute source effect, signature members excluded",
+  "rank_control_genes": 500,
+  "primary_control": "rank_501_1000",
+  "control_construction_note": "The 464 frozen genes are drawn from the 500 largest absolute source effects, so the signature occupies the extreme tail of the selection variable and a covariate-balanced non-signature control set does not exist. The matched draws below are reported for completeness with their balance diagnostics, but they carry systematically smaller source effects and therefore understate the control; the rank 501-1000 set is the closest constructible comparison and is treated as primary.",
+  "cohorts": {
+    "GSE267238": {
+      "role": "admitted",
+      "signature": {
+        "genes": 433,
+        "direction_concordance": 0.9191685912240185,
+        "spearman_effect_correlation": 0.6998868131021744
+      },
+      "matched_control": {
+        "eligible_signature_genes": 432,
+        "covariate_complete_background_genes": 24537,
+        "direction_median": 0.8356481481481481,
+        "direction_upper_95": 0.8495370370370371,
+        "direction_empirical_p": 0.000999000999000999,
+        "rho_median": 0.6649070622017044,
+        "rho_upper_95": 0.6739039377944342,
+        "rho_empirical_p": 0.000999000999000999,
+        "max_absolute_standardized_mean_difference": {
+          "median": 1.6966263819680008,
+          "upper_95_percentile": 1.7220783385955498,
+          "maximum": 1.7502512334845242
+        },
+        "balance_achieved": false,
+        "interpretation": "NOT balanced. The signature is the extreme tail of the absolute source effect distribution, so no non-signature gene has a comparable effect magnitude and the draws carry systematically smaller source effects. These draws therefore do not isolate the selection variable and are reported only as a lower bound; the rank 501-1000 control is the closest constructible comparison."
+      },
+      "rank_501_1000_control": {
+        "genes": 453,
+        "direction_concordance": 0.8807947019867549,
+        "spearman_effect_correlation": 0.6703631839219772
+      }
+    },
+    "GSE128739": {
+      "role": "admitted",
+      "signature": {
+        "genes": 464,
+        "direction_concordance": 0.9633620689655172,
+        "spearman_effect_correlation": 0.7606808928520663
+      },
+      "matched_control": {
+        "eligible_signature_genes": 448,
+        "covariate_complete_background_genes": 25551,
+        "direction_median": 0.90625,
+        "direction_upper_95": 0.9174107142857143,
+        "direction_empirical_p": 0.000999000999000999,
+        "rho_median": 0.7634460703814924,
+        "rho_upper_95": 0.770864380911028,
+        "rho_empirical_p": 0.7312687312687313,
+        "max_absolute_standardized_mean_difference": {
+          "median": 1.7267579409862086,
+          "upper_95_percentile": 1.751161064290444,
+          "maximum": 1.7688783680998834
+        },
+        "balance_achieved": false,
+        "interpretation": "NOT balanced. The signature is the extreme tail of the absolute source effect distribution, so no non-signature gene has a comparable effect magnitude and the draws carry systematically smaller source effects. These draws therefore do not isolate the selection variable and are reported only as a lower bound; the rank 501-1000 control is the closest constructible comparison."
+      },
+      "rank_501_1000_control": {
+        "genes": 500,
+        "direction_concordance": 0.928,
+        "spearman_effect_correlation": 0.749728659472591
+      }
+    },
+    "GSE235023": {
+      "role": "admitted",
+      "signature": {
+        "genes": 448,
+        "direction_concordance": 0.921875,
+        "spearman_effect_correlation": 0.7218957235438078
+      },
+      "matched_control": {
+        "eligible_signature_genes": 448,
+        "covariate_complete_background_genes": 25551,
+        "direction_median": 0.8415178571428571,
+        "direction_upper_95": 0.8526785714285714,
+        "direction_empirical_p": 0.000999000999000999,
+        "rho_median": 0.6677235502573713,
+        "rho_upper_95": 0.6755161417659248,
+        "rho_empirical_p": 0.000999000999000999,
+        "max_absolute_standardized_mean_difference": {
+          "median": 1.7266757172365603,
+          "upper_95_percentile": 1.7510312638492016,
+          "maximum": 1.7778735236910532
+        },
+        "balance_achieved": false,
+        "interpretation": "NOT balanced. The signature is the extreme tail of the absolute source effect distribution, so no non-signature gene has a comparable effect magnitude and the draws carry systematically smaller source effects. These draws therefore do not isolate the selection variable and are reported only as a lower bound; the rank 501-1000 control is the closest constructible comparison."
+      },
+      "rank_501_1000_control": {
+        "genes": 469,
+        "direction_concordance": 0.8805970149253731,
+        "spearman_effect_correlation": 0.6589554481105561
+      }
+    },
+    "GSE78733": {
+      "role": "untouched",
+      "signature": {
+        "genes": 455,
+        "direction_concordance": 0.8571428571428571,
+        "spearman_effect_correlation": 0.6006179885498225
+      },
+      "matched_control": {
+        "eligible_signature_genes": 440,
+        "covariate_complete_background_genes": 25099,
+        "direction_median": 0.8318181818181818,
+        "direction_upper_95": 0.8454545454545455,
+        "direction_empirical_p": 0.000999000999000999,
+        "rho_median": 0.6793133801390834,
+        "rho_upper_95": 0.6871895096088635,
+        "rho_empirical_p": 1.0,
+        "max_absolute_standardized_mean_difference": {
+          "median": 1.7201412149560564,
+          "upper_95_percentile": 1.747078266760743,
+          "maximum": 1.7733672509986915
+        },
+        "balance_achieved": false,
+        "interpretation": "NOT balanced. The signature is the extreme tail of the absolute source effect distribution, so no non-signature gene has a comparable effect magnitude and the draws carry systematically smaller source effects. These draws therefore do not isolate the selection variable and are reported only as a lower bound; the rank 501-1000 control is the closest constructible comparison."
+      },
+      "rank_501_1000_control": {
+        "genes": 491,
+        "direction_concordance": 0.8370672097759674,
+        "spearman_effect_correlation": 0.631576741088987
+      }
+    },
+    "GSE285925_No19": {
+      "role": "boundary",
+      "signature": {
+        "genes": 385,
+        "direction_concordance": 0.5402597402597402,
+        "spearman_effect_correlation": 0.056227109723024075
+      },
+      "matched_control": {
+        "eligible_signature_genes": 377,
+        "covariate_complete_background_genes": 18864,
+        "direction_median": 0.5755968169761273,
+        "direction_upper_95": 0.5915119363395226,
+        "direction_empirical_p": 1.0,
+        "rho_median": 0.1539208561234919,
+        "rho_upper_95": 0.16441565090585616,
+        "rho_empirical_p": 1.0,
+        "max_absolute_standardized_mean_difference": {
+          "median": 1.638287919753929,
+          "upper_95_percentile": 1.6637660349722347,
+          "maximum": 1.6894956189557373
+        },
+        "balance_achieved": false,
+        "interpretation": "NOT balanced. The signature is the extreme tail of the absolute source effect distribution, so no non-signature gene has a comparable effect magnitude and the draws carry systematically smaller source effects. These draws therefore do not isolate the selection variable and are reported only as a lower bound; the rank 501-1000 control is the closest constructible comparison."
+      },
+      "rank_501_1000_control": {
+        "genes": 409,
+        "direction_concordance": 0.5623471882640587,
+        "spearman_effect_correlation": 0.13481694723247212
+      }
+    },
+    "GSE285925_No20": {
+      "role": "boundary",
+      "signature": {
+        "genes": 385,
+        "direction_concordance": 0.5792207792207792,
+        "spearman_effect_correlation": 0.08927263350882303
+      },
+      "matched_control": {
+        "eligible_signature_genes": 377,
+        "covariate_complete_background_genes": 18864,
+        "direction_median": 0.6047745358090185,
+        "direction_upper_95": 0.6180371352785146,
+        "direction_empirical_p": 0.997002997002997,
+        "rho_median": 0.14976498572378627,
+        "rho_upper_95": 0.16139435113714456,
+        "rho_empirical_p": 1.0,
+        "max_absolute_standardized_mean_difference": {
+          "median": 1.6388983775051358,
+          "upper_95_percentile": 1.6652113246622917,
+          "maximum": 1.7002720884897697
+        },
+        "balance_achieved": false,
+        "interpretation": "NOT balanced. The signature is the extreme tail of the absolute source effect distribution, so no non-signature gene has a comparable effect magnitude and the draws carry systematically smaller source effects. These draws therefore do not isolate the selection variable and are reported only as a lower bound; the rank 501-1000 control is the closest constructible comparison."
+      },
+      "rank_501_1000_control": {
+        "genes": 409,
+        "direction_concordance": 0.6112469437652812,
+        "spearman_effect_correlation": 0.1661130649024349
+      }
+    }
+  }
+}

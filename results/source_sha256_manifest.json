@@ -1,0 +1,117 @@
+[
+  {
+    "path": "data/raw/GSE42783_series_matrix.txt.gz",
+    "bytes": 1609894,
+    "sha256": "d62e21280b01a922c6ecccb04b95bc00c0c8166d534673c3fd94173fc378ebe0"
+  },
+  {
+    "path": "data/raw/GSE108415_series_matrix.txt.gz",
+    "bytes": 4177126,
+    "sha256": "dd574c3f9e1ef058a40cb2874414b02fdece15460c374155fe3b542bfe1af0b9"
+  },
+  {
+    "path": "data/raw/GSE267238_gene_count.txt.gz",
+    "bytes": 2941901,
+    "sha256": "7673d89f577d6a865d46728169fb44a07238bcf40655435dcae5a23ae16df1ee"
+  },
+  {
+    "path": "data/raw/GSE128739_devTom_counts.xlsx",
+    "bytes": 8569665,
+    "sha256": "ab56f7bf1181a342db71dbd0596057c6e7be584f8cd1298cd6c58305cab24ace"
+  },
+  {
+    "path": "data/raw/GSE235023_All_gene_counts.txt.gz",
+    "bytes": 601565,
+    "sha256": "78eb81da6d51fecfb59afe4041e5141e0f62612a2e6f2086f78a611f33b8f8be"
+  },
+  {
+    "path": "data/raw/GSE285925/GSE285925_1_genes_fpkm_expression.txt.gz",
+    "bytes": 3024017,
+    "sha256": "44a00447e487cbe80794ef768492ce015b64c0aaa4b0c05a8bbd0d5db4bfbf58"
+  },
+  {
+    "path": "data/raw/GSE78733_RAW.tar",
+    "bytes": 45617152,
+    "sha256": "04d8e6728095c48675f226704e75bbb66a75eca3ced1392ddc68742904a5dba4"
+  },
+  {
+    "path": "data/raw/GSE78733_family.soft.gz",
+    "bytes": 7117035,
+    "sha256": "13ea88045add6baecafd184238a69914314820d24276bce523e5f1383478d8f3"
+  },
+  {
+    "path": "data/raw/GSE78733_series_matrix.txt.gz",
+    "bytes": 1081544,
+    "sha256": "6510857d967d56e415f5168da0a796b62aeeef29d5071b77c35eacb7b4614670"
+  },
+  {
+    "path": "data/raw/GSE19326_series_matrix.txt.gz",
+    "bytes": 2561845,
+    "sha256": "07bc33a7f79532421f437fa368a732f1ab1b52fef455090b3fd2b7a27da957e0"
+  },
+  {
+    "path": "data/raw/GPL4741_family.soft.gz",
+    "bytes": 87343146,
+    "sha256": "eebc57c4d0c7cddd417bd53b4632c3a737e0e431b083026f9fd3aa1179d8936e"
+  },
+  {
+    "path": "data/raw/GPL4741_probe_sequences.csv.gz",
+    "bytes": 1034197,
+    "sha256": "4eacf6323fded782a15ba0eef21e4467e62df242cbcb42b58bae585e0248b109"
+  },
+  {
+    "path": "data/raw/GSE40257_series_matrix.txt.gz",
+    "bytes": 6679353,
+    "sha256": "cdd35132b234937b82da6bf8793bdeabe75edc19a726b5c1b8ffe8eb7cf90485"
+  },
+  {
+    "path": "data/raw/GPL15968_110707_RDKK310_Slyc_ChIP.ndf.gz",
+    "bytes": 37960234,
+    "sha256": "c0715a112d8a01e900e019517d0e6686cfbe9145a919300baf7aa16b997739f6"
+  },
+  {
+    "path": "data/raw/GSE40257/GSM989347_63594505_ratio_peaks_mapToFeatures_All_Peaks.txt.gz",
+    "bytes": 165104,
+    "sha256": "e4857524d515099035a3ad85d76e798b2e85be376877b1ae897e1413949e6de2"
+  },
+  {
+    "path": "data/raw/GSE40257/GSM989348_67459505_ratio_peaks_mapToFeatures_All_Peaks.txt.gz",
+    "bytes": 57149,
+    "sha256": "3fa30baad0157db25aea1525092c10af3375fc5e249b1148c34b225312fadb9f"
+  },
+  {
+    "path": "data/raw/GSE40257/GSM989349_71972405_ratio_peaks_mapToFeatures_All_Peaks.txt.gz",
+    "bytes": 145363,
+    "sha256": "d9e67e04e8989145b7e6303ebf7faf4c5b723ca51b30fffdefe268bdc97032ba"
+  },
+  {
+    "path": "config/samples/GSE210589_rin34dpa.csv",
+    "bytes": 945,
+    "sha256": "6081c4230e9de4f4f70f12e30362b60752662629a55b5bda4a2c3122e418bbfb"
+  },
+  {
+    "path": "data/raw/PXD051570/PMC13220761_supplementaryFiles.zip",
+    "bytes": 161764316,
+    "sha256": "a3cd42583b7934ee8a2c9a35e4d51e64069ea412d2040b65b2869c634818aa34"
+  },
+  {
+    "path": "data/raw/SRP109982/PMC5785480_supplementaryFiles.zip",
+    "bytes": 119993118,
+    "sha256": "e08aaef908ee133a6526aace85fe4bbd29845dbce89c938cfa4623eeae8ec501"
+  },
+  {
+    "path": "data/raw/go-basic.obo",
+    "bytes": 32227785,
+    "sha256": "b08d45b268b8c24ccb2513dbbbc7d4df9f6521c099b413f79eb31e06e0fa3bcc"
+  },
+  {
+    "path": "data/raw/ensembl_plants63_slyc_refseq_mapping.tsv",
+    "bytes": 830702,
+    "sha256": "39c69f0ea420f0bfd33fd8afdc808c9ea6ee1a4fd07752ed871ce5126148a9ff"
+  },
+  {
+    "path": "data/raw/ensembl_plants63_slyc_gff3.gz",
+    "bytes": 5874449,
+    "sha256": "b3b7e19746e8a3d3112400afe2deeed31ab23b4f065af7e30da9544e7968ab1d"
+  }
+]

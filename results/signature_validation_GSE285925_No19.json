@@ -1,0 +1,18 @@
+{
+  "scope": "Independent RNA-seq direction check of a signature frozen from two microarray studies; not causal validation.",
+  "signature_gene_count_measured": 385,
+  "comparison": "Imported study endpoint: mature_55_DAA minus breaker_40_DAA",
+  "signature_reference": "GSE42783 red_ripe minus mature_green",
+  "spearman_effect_correlation": 0.056227109723024075,
+  "direction_concordance": 0.5402597402597402,
+  "random_direction_concordance": {
+    "median": 0.5168831168831168,
+    "upper_95_percentile": 0.5558441558441558,
+    "empirical_p": 0.1928071928071928
+  },
+  "limitations": [
+    "The imported endpoint labels are study-specific and are not assumed equivalent to the source-A stage labels.",
+    "A fixed signature was imported without retraining.",
+    "The null permutes validation effects within the same measured signature genes; it does not assess pathway-level confounding."
+  ]
+}

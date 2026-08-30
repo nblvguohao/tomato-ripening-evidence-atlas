@@ -1,0 +1,101 @@
+{
+  "scope": "Frozen-signature cross-layer sensitivity analyses matched for GSE267238 WT endpoint detection, absolute stage-effect magnitude, and Ensembl Plants release-63 gene length.",
+  "frozen_signature_genes": 464,
+  "draws": 1000,
+  "seed": 20260828,
+  "layers": {
+    "protein_differential": {
+      "assay_universe_genes": 8888,
+      "target_genes_in_assay_universe": 2640,
+      "unmatched_source_universe_2x2": {
+        "signature_target": 159,
+        "signature_not_target": 44,
+        "nonsignature_target": 2481,
+        "nonsignature_not_target": 6204,
+        "odds_ratio": 9.036275695284159,
+        "exact_conditional_95_ci": [
+          6.410147680846134,
+          12.962544912347163
+        ],
+        "fisher_greater_p": 1.7556238818461852e-47
+      },
+      "matched_null": {
+        "analysis": "one-sided empirical matched-null enrichment; a higher target count is more enriched",
+        "covariate_complete_signature_genes": 190,
+        "covariate_complete_nonsignature_background_genes": 8120,
+        "observed_target_count": 147,
+        "observed_target_rate": 0.7736842105263158,
+        "null_median_target_count": 128.0,
+        "null_upper_95_target_count": 136.0,
+        "matched_null_empirical_p": 0.000999000999000999,
+        "max_absolute_standardized_mean_difference": {
+          "median": 0.2549259844683307,
+          "upper_95_percentile": 0.30037101192956656,
+          "maximum": 0.3567065412970889
+        }
+      }
+    },
+    "RIN_occupancy": {
+      "assay_universe_genes": 35494,
+      "target_genes_in_assay_universe": 1397,
+      "unmatched_source_universe_2x2": {
+        "signature_target": 50,
+        "signature_not_target": 413,
+        "nonsignature_target": 1347,
+        "nonsignature_not_target": 33684,
+        "odds_ratio": 3.0274432826242874,
+        "exact_conditional_95_ci": [
+          2.199348777305279,
+          4.0900697473309915
+        ],
+        "fisher_greater_p": 1.4529161720667293e-10
+      },
+      "matched_null": {
+        "analysis": "one-sided empirical matched-null enrichment; a higher target count is more enriched",
+        "covariate_complete_signature_genes": 432,
+        "covariate_complete_nonsignature_background_genes": 27386,
+        "observed_target_count": 45,
+        "observed_target_rate": 0.10416666666666667,
+        "null_median_target_count": 36.0,
+        "null_upper_95_target_count": 44.0,
+        "matched_null_empirical_p": 0.03496503496503497,
+        "max_absolute_standardized_mean_difference": {
+          "median": 0.09787282563892208,
+          "upper_95_percentile": 0.11617660308686989,
+          "maximum": 0.1328308000172047
+        }
+      }
+    },
+    "rin1_differential_among_occupied_testable_genes": {
+      "assay_universe_genes": 1019,
+      "target_genes_in_assay_universe": 482,
+      "unmatched_source_universe_2x2": {
+        "signature_target": 35,
+        "signature_not_target": 8,
+        "nonsignature_target": 447,
+        "nonsignature_not_target": 529,
+        "odds_ratio": 5.177572706935123,
+        "exact_conditional_95_ci": [
+          2.3256495259395016,
+          13.03730701178374
+        ],
+        "fisher_greater_p": 2.893749999106085e-06
+      },
+      "matched_null": {
+        "analysis": "one-sided empirical matched-null enrichment; a higher target count is more enriched",
+        "covariate_complete_signature_genes": 41,
+        "covariate_complete_nonsignature_background_genes": 949,
+        "observed_target_count": 34,
+        "observed_target_rate": 0.8292682926829268,
+        "null_median_target_count": 31.0,
+        "null_upper_95_target_count": 35.0,
+        "matched_null_empirical_p": 0.14685314685314685,
+        "max_absolute_standardized_mean_difference": {
+          "median": 0.35207263350496054,
+          "upper_95_percentile": 0.4514573394895867,
+          "maximum": 0.534605868766757
+        }
+      }
+    }
+  }
+}

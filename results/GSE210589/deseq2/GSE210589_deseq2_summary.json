@@ -1,0 +1,39 @@
+{
+  "source_id": "GSE210589",
+  "contrast": "rin-1_34DPA_vs_WT_34DPA",
+  "biological_replicates_per_group": 3,
+  "salmon_version": "1.10.2",
+  "DESeq2_version": "1.42.0",
+  "tximport_version": "1.30.0",
+  "genes_tested": 18384,
+  "genes_differential_padj_lt_0_05_abs_lfc_ge_1": 6200,
+  "admitted_signature_RIN_binding_genes": 50,
+  "binding_plus_perturbation_genes": 35,
+  "random_seed": 20260827,
+  "claim_boundary": "Perturbation-expression support is context-limited and is not by itself a causal regulatory sign.",
+  "processing_validation_passed": true,
+  "minimum_read_retention": 0.9908320153564356,
+  "minimum_salmon_percent_mapped": 83.27683235342015,
+  "within_WT_spearman_range": [
+    0.992350614963314,
+    0.996355267404094
+  ],
+  "within_rin1_spearman_range": [
+    0.996533912703411,
+    0.9979485983419168
+  ],
+  "between_group_spearman_range": [
+    0.8705212519970852,
+    0.8764199979771505
+  ],
+  "admitted_RIN_targets_tested": 1019,
+  "signature_RIN_bound_differential": 35,
+  "signature_RIN_bound_not_differential": 8,
+  "other_RIN_bound_differential": 447,
+  "other_RIN_bound_not_differential": 529,
+  "signature_vs_other_RIN_target_differential_odds_ratio": 5.177572706935123,
+  "signature_vs_other_RIN_target_differential_fisher_p": 2.893749999106084e-06,
+  "perturbation_statistical_support_gate": true,
+  "high_grade_lower_in_rin1": 25,
+  "high_grade_higher_in_rin1": 10
+}

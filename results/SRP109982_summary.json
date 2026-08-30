@@ -1,0 +1,76 @@
+{
+  "source": "SRP109982 / PMC5785480 Supplementary Data 3",
+  "cultivar": "M82",
+  "context_count": 11,
+  "contexts": [
+    {
+      "context": "Collenchyma",
+      "signature_genes_measured": 328,
+      "direction_concordance": 0.9725609756097561,
+      "spearman_effect_correlation": 0.68709298300144
+    },
+    {
+      "context": "Columella",
+      "signature_genes_measured": 384,
+      "direction_concordance": 0.9661458333333334,
+      "spearman_effect_correlation": 0.7464546387033332
+    },
+    {
+      "context": "Inner epidermis",
+      "signature_genes_measured": 344,
+      "direction_concordance": 0.9738372093023255,
+      "spearman_effect_correlation": 0.67739448805667
+    },
+    {
+      "context": "Locular tissue",
+      "signature_genes_measured": 363,
+      "direction_concordance": 0.953168044077135,
+      "spearman_effect_correlation": 0.7223650282414723
+    },
+    {
+      "context": "Outer epidermis",
+      "signature_genes_measured": 318,
+      "direction_concordance": 0.9213836477987422,
+      "spearman_effect_correlation": 0.6544707293586799
+    },
+    {
+      "context": "Parenchyma",
+      "signature_genes_measured": 341,
+      "direction_concordance": 0.9912023460410557,
+      "spearman_effect_correlation": 0.6931899661644402
+    },
+    {
+      "context": "Placenta",
+      "signature_genes_measured": 371,
+      "direction_concordance": 0.9703504043126685,
+      "spearman_effect_correlation": 0.7311719074957055
+    },
+    {
+      "context": "Seeds",
+      "signature_genes_measured": 331,
+      "direction_concordance": 0.8368580060422961,
+      "spearman_effect_correlation": 0.6384946542555832
+    },
+    {
+      "context": "Septum",
+      "signature_genes_measured": 387,
+      "direction_concordance": 0.9922480620155039,
+      "spearman_effect_correlation": 0.7238981304003421
+    },
+    {
+      "context": "Total pericarp",
+      "signature_genes_measured": 408,
+      "direction_concordance": 0.9950980392156863,
+      "spearman_effect_correlation": 0.7273485257808571
+    },
+    {
+      "context": "Vascular tissue",
+      "signature_genes_measured": 305,
+      "direction_concordance": 0.898360655737705,
+      "spearman_effect_correlation": 0.6980913858489104
+    }
+  ],
+  "admission_status": "tissue_applicability_only",
+  "exclusion_from_studyshield": "Only published replicate-averaged RPM values are available in the supplement; individual libraries are not reconstructed here.",
+  "claim_boundary": "Supports tissue applicability and heterogeneity mapping, not replicate-level method benchmarking."
+}

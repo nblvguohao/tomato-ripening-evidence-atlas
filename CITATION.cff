@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite this repository and the exact commit used, and cite the underlying source studies."
+type: software
+title: "Tomato ripening evidence atlas: analysis code and processed inputs"
+authors:
+  - family-names: Lv
+    given-names: Guohao
+  - family-names: Xia
+    given-names: Yingchun
+  - family-names: Liu
+    given-names: Huichao
+  - family-names: Zhu
+    given-names: Xiaolei
+  - family-names: Yang
+    given-names: Shuai
+  - family-names: Zhou
+    given-names: Ailian
+  - family-names: Gu
+    given-names: Lichuan
+repository-code: "https://github.com/nblvguohao/tomato-ripening-evidence-atlas"
+url: "https://github.com/nblvguohao/tomato-ripening-evidence-atlas"
+version: "1.0.0"
+date-released: "2026-08-30"
+license: MIT
+abstract: "Analysis code and compact processed inputs for reproducing a multi-cohort tomato ripening signature, evidence atlas and candidate table. Data rights are described separately in DATA_LICENSE.md; third-party rights are retained."

@@ -1,0 +1,10 @@
+sample_id,study_id,title,genotype,stage,stage_ordinal,replicate
+GSM2074861,GSE78733,pericarp WT_BR_rep1,WT,breaker,1,1
+GSM2074862,GSE78733,pericarp WT_BR_rep2,WT,breaker,1,2
+GSM2074863,GSE78733,pericarp WT_RR_rep1,WT,red_ripe,3,1
+GSM2074864,GSE78733,pericarp WT_RR_rep2,WT,red_ripe,3,2
+GSM2074865,GSE78733,pericarp WT_RR_rep3,WT,red_ripe,3,3
+GSM2074866,GSE78733,pericarp WT_PK_rep1,WT,pink,2,1
+GSM2074867,GSE78733,pericarp WT_PK_rep2,WT,pink,2,2
+GSM2074868,GSE78733,pericarp WT_TU_rep1,WT,turning,2,1
+GSM2074869,GSE78733,pericarp WT_TU_rep2,WT,turning,2,2

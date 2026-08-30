@@ -1,38 +1,70 @@
 # Tomato ripening evidence atlas
 
-Analysis code and study configuration for the tomato ripening evidence atlas.
-Repository: https://github.com/nblvguohao/tomato-ripening-evidence-atlas
+Analysis code and compact processed inputs for an evidence-tiered, multi-cohort
+tomato ripening atlas. Repository:
+https://github.com/nblvguohao/tomato-ripening-evidence-atlas
 
-## Current publication scope
+## Scope and privacy
 
-This first public snapshot contains analysis code, sample/study configuration,
-34 analysis unit tests and pinned Python dependencies. No manuscript, original
-figures, author forms, raw data, processed expression matrices or result tables
-are part of this snapshot. Public source accessions and URLs are recorded in
-`config/public_studies.csv` and the contrast configurations.
+This repository contains neither the manuscript nor its supplementary prose,
+cover letter, author forms, original figure files, private correspondence,
+large raw sequencing files, or unpublished follow-on analyses. It starts with
+a fresh publication history rather than the working project's history.
 
-The processed-data package was tested locally: the 464-gene signature, consensus
-and atlas and 35-candidate table were regenerated and matched their frozen
-references. Its publication is pending an explicit decision about whether the
-processed gene-level expression matrices fall within the authors' withheld-data
-boundary. This code-only snapshot must not be described as a self-contained
-reproducibility release. `reproduce.py` requires that additional package.
+Processed gene-level expression matrices, sample labels, frozen evidence tables,
+source accessions, analysis scripts and regression tests are included. Retaining
+the background genes is necessary for valid controls; providing only the
+selected genes would not reproduce those comparisons.
 
-## Verify the code
+## Reproduce from processed inputs
 
-Use Python 3.12, install `requirements.txt`, then run:
+Use Python 3.12 and the pinned requirements. No API key is needed.
 
 ```sh
-python -m unittest discover -s tests -p 'test_*.py' -q
+python3 -m venv .venv
+. .venv/bin/activate
+python -m pip install -r requirements.txt
+python reproduce.py
 ```
 
-The matched cross-layer and transfer scripts use seed 20260828 and 1,000 draws.
+The command verifies file hashes, runs the included analysis tests, reselects
+the frozen signature from the two source matrices, reconstructs expression
+consensus from independent matrices, rebuilds the evidence graph and atlas,
+and reproduces the candidate table. It compares regenerated tables against
+the frozen reference tables with explicit numeric tolerances. Results are
+written to `reproduced/`; reference inputs are not overwritten.
+
+This is processed-input reproduction, not a claim that all raw-data analyses
+can run without downloads. The protein and perturbation results and historical
+StudyShield scores are frozen intermediate inputs to the atlas reconstruction.
+The original processing scripts are retained for transparency. Additional public
+inputs are needed to recompute these upstream layers or their matched nulls.
+
+## Original sources and full upstream recomputation
+
+See `config/public_studies.csv`, `config/cohort_contrasts.csv`, and
+`results/source_sha256_manifest.json` for accessions, roles, source URLs and
+checksums. Raw data remain at GEO/SRA/ProteomeXchange and the original publishers;
+large third-party files are deliberately not redistributed here. Retrieve the
+specified versions, verify checksums, and consult each script's `--help` before
+raw-data processing. R/DESeq2 is additionally required for the GSE210589 upstream
+analysis. The pinned gene annotation is Ensembl Plants release 63; do not silently
+substitute a newer annotation or ontology.
+
+The matched cross-layer and transfer scripts use seed **20260828** and 1,000
+draws. These seeds must not be replaced with the general pipeline seed.
 Candidate grading does not use StudyShield. Binding plus perturbation is
 context-bound evidence, not proof of direct causality or regulatory sign.
 
-## Rights and citation
+## Licensing and citation
 
-The authors authorized public posting. Reuse licences await explicit approval;
-no MIT or Creative Commons licence is granted in this snapshot. Third-party
-material retains its original terms. Cite the repository and exact commit.
-No Zenodo DOI or complete archived data release is claimed.
+Public posting of the compact processed matrices and necessary result tables
+was explicitly authorized by the authors on 30 August 2026. Original analysis
+code is licensed under the MIT License (see `LICENSE`). Author-generated result
+tables are licensed under CC BY 4.0 (see `DATA_LICENSE.md`). Third-party data,
+annotations and derived portions retain their original terms; these grants do
+not relicense third-party rights.
+
+Cite this repository and the exact commit used; author metadata are provided in
+`CITATION.cff`. A Zenodo DOI will be recorded only after a real archive has been
+published; no DOI is currently claimed.

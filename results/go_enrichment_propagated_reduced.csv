@@ -1,0 +1,55 @@
+go_id,signature_gene_count,matched_signature_gene_count,full_frozen_signature_gene_count,null_draw_gene_count,null_median_gene_count,null_upper_95_gene_count,empirical_p,bh_fdr,redundant_with_descendant,representative_term,go_name,go_namespace
+GO:0098772,6,432,464,432,1.0,3.0,0.0009990009990009,0.0539460539460539,,True,molecular function regulator activity,molecular_function
+GO:0016798,14,432,464,432,7.0,10.0,0.0019980019980019,0.0539460539460539,,True,"hydrolase activity, acting on glycosyl bonds",molecular_function
+GO:0016788,10,432,464,432,5.0,7.0,0.0029970029970029,0.0539460539460539,,True,"hydrolase activity, acting on ester bonds",molecular_function
+GO:0004553,13,432,464,432,7.0,10.0,0.0059940059940059,0.0809190809190809,,True,"hydrolase activity, hydrolyzing O-glycosyl compounds",molecular_function
+GO:0016020,14,432,464,432,8.0,12.0,0.0129870129870129,0.1001855287569573,,True,membrane,cellular_component
+GO:0008238,5,432,464,432,1.0,3.0,0.0129870129870129,0.1001855287569573,,True,exopeptidase activity,molecular_function
+GO:0070008,5,432,464,432,1.0,3.0,0.0129870129870129,0.1001855287569573,,True,serine-type exopeptidase activity,molecular_function
+GO:0016491,26,432,464,432,21.0,26.0,0.0889110889110889,0.5059767818388509,,True,oxidoreductase activity,molecular_function
+GO:0030170,5,432,464,432,3.0,5.0,0.0949050949050949,0.5059767818388509,,True,pyridoxal phosphate binding,molecular_function
+GO:0070279,5,432,464,432,3.0,5.0,0.0949050949050949,0.5059767818388509,,True,vitamin B6 binding,molecular_function
+GO:0055085,12,432,464,432,8.0,13.0,0.1128871128871128,0.5059767818388509,,True,transmembrane transport,biological_process
+GO:0022857,10,432,464,432,7.0,11.0,0.1278721278721278,0.5059767818388509,,True,transmembrane transporter activity,molecular_function
+GO:0055114,24,432,464,432,20.0,25.0,0.1348651348651348,0.5059767818388509,,True,obsolete oxidation-reduction process,biological_process
+GO:0005215,10,432,464,432,7.0,11.0,0.1348651348651348,0.5059767818388509,,True,transporter activity,molecular_function
+GO:0046914,14,432,464,432,11.0,15.0,0.1508491508491508,0.5059767818388509,,True,transition metal ion binding,molecular_function
+GO:0005975,13,432,464,432,10.0,14.0,0.2077922077922078,0.5059767818388509,,True,carbohydrate metabolic process,biological_process
+GO:0005506,13,432,464,432,11.0,15.0,0.2297702297702297,0.5059767818388509,,True,iron ion binding,molecular_function
+GO:0003674,96,432,464,432,91.0,102.0,0.2307692307692307,0.5059767818388509,,True,molecular_function,molecular_function
+GO:0016705,13,432,464,432,11.0,15.0,0.2347652347652347,0.5059767818388509,,True,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",molecular_function
+GO:0009987,52,432,464,432,48.0,56.0,0.2357642357642357,0.5059767818388509,,True,cellular process,biological_process
+GO:0043169,16,432,464,432,14.0,18.0,0.2447552447552447,0.5059767818388509,,True,cation binding,molecular_function
+GO:0046872,16,432,464,432,14.0,18.0,0.2447552447552447,0.5059767818388509,,True,metal ion binding,molecular_function
+GO:0110165,16,432,464,432,13.0,18.0,0.2457542457542457,0.5059767818388509,,True,cellular anatomical structure,cellular_component
+GO:0005575,16,432,464,432,13.0,18.0,0.2527472527472527,0.5059767818388509,,True,cellular_component,cellular_component
+GO:0016787,29,432,464,432,26.0,32.0,0.2597402597402597,0.5059767818388509,,True,hydrolase activity,molecular_function
+GO:0006810,12,432,464,432,10.0,14.0,0.2677322677322677,0.5059767818388509,,True,transport,biological_process
+GO:0051179,12,432,464,432,10.0,14.0,0.2677322677322677,0.5059767818388509,,True,localization,biological_process
+GO:0051234,12,432,464,432,10.0,14.0,0.2677322677322677,0.5059767818388509,,True,establishment of localization,biological_process
+GO:0003824,76,432,464,432,72.0,82.0,0.2717282717282717,0.5059767818388509,,True,catalytic activity,molecular_function
+GO:0019842,5,432,464,432,4.0,6.0,0.2827172827172827,0.5088911088911089,,True,vitamin binding,molecular_function
+GO:0020037,15,432,464,432,13.0,18.0,0.3266733266733266,0.5512612387612388,,True,heme binding,molecular_function
+GO:0046906,15,432,464,432,13.0,18.0,0.3266733266733266,0.5512612387612388,,True,tetrapyrrole binding,molecular_function
+GO:0008150,59,432,464,432,57.0,66.0,0.3606393606393606,0.590137135591681,,True,biological_process,biological_process
+GO:0006629,5,432,464,432,4.0,7.0,0.4765234765234765,0.7568314038902274,,True,lipid metabolic process,biological_process
+GO:0050896,6,432,464,432,7.0,10.0,0.7022977022977023,1.0,,True,response to stimulus,biological_process
+GO:0016021,5,432,464,432,6.0,9.0,0.7092907092907093,1.0,,True,,
+GO:0043226,5,432,464,432,6.0,9.0,0.7382617382617382,1.0,,True,organelle,cellular_component
+GO:0043229,5,432,464,432,6.0,9.0,0.7382617382617382,1.0,,True,intracellular organelle,cellular_component
+GO:0008152,35,432,464,432,37.0,45.0,0.7452547452547452,1.0,,True,metabolic process,biological_process
+GO:0044281,5,432,464,432,6.0,8.0,0.7592407592407593,1.0,,True,small molecule metabolic process,biological_process
+GO:0036094,24,432,464,432,27.0,32.049999999999955,0.7702297702297702,1.0,,True,small molecule binding,molecular_function
+GO:0043167,23,432,464,432,26.0,32.0,0.8111888111888111,1.0,,True,ion binding,molecular_function
+GO:0005622,5,432,464,432,7.0,10.0,0.8421578421578422,1.0,,True,intracellular anatomical structure,cellular_component
+GO:0005488,27,432,464,432,33.0,41.0,0.951048951048951,1.0,,True,binding,molecular_function
+GO:0044238,26,432,464,432,32.0,39.0,0.9590409590409592,1.0,,True,primary metabolic process,biological_process
+GO:0008236,5,432,464,432,8.0,11.0,0.978021978021978,1.0,,True,serine-type peptidase activity,molecular_function
+GO:0017171,5,432,464,432,8.0,11.0,0.978021978021978,1.0,,True,serine hydrolase activity,molecular_function
+GO:0043168,7,432,464,432,12.0,17.0,0.982017982017982,1.0,,True,anion binding,molecular_function
+GO:1901363,7,432,464,432,13.0,17.0,0.987012987012987,1.0,,True,heterocyclic compound binding,molecular_function
+GO:0016740,11,432,464,432,17.0,23.0,0.989010989010989,1.0,,True,transferase activity,molecular_function
+GO:0008233,5,432,464,432,9.0,12.0,0.991008991008991,1.0,,True,peptidase activity,molecular_function
+GO:0043170,7,432,464,432,17.0,22.0,0.999000999000999,1.0,,True,macromolecule metabolic process,biological_process
+GO:0140096,8,432,464,432,15.0,21.0,1.0,1.0,,True,"catalytic activity, acting on a protein",molecular_function
+GO:0019538,6,432,464,432,16.0,21.0,1.0,1.0,,True,protein metabolic process,biological_process

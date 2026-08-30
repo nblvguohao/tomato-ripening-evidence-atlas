@@ -1,0 +1,13 @@
+sample_id,biological_id,cultivar,stage,stage_ordinal,tissue,genotype,replicate_type
+count.Br19_1,Br19_1,No19,breaker_40_DAA,0,fruit,No19,biological
+count.Br19_2,Br19_2,No19,breaker_40_DAA,0,fruit,No19,biological
+count.Br19_3,Br19_3,No19,breaker_40_DAA,0,fruit,No19,biological
+count.Br20_1,Br20_1,No20,breaker_40_DAA,0,fruit,No20,biological
+count.Br20_2,Br20_2,No20,breaker_40_DAA,0,fruit,No20,biological
+count.Br20_3,Br20_3,No20,breaker_40_DAA,0,fruit,No20,biological
+count.MF19_1,MF19_1,No19,mature_55_DAA,1,fruit,No19,biological
+count.MF19_2,MF19_2,No19,mature_55_DAA,1,fruit,No19,biological
+count.MF19_3,MF19_3,No19,mature_55_DAA,1,fruit,No19,biological
+count.MF20_1,MF20_1,No20,mature_55_DAA,1,fruit,No20,biological
+count.MF20_2,MF20_2,No20,mature_55_DAA,1,fruit,No20,biological
+count.MF20_3,MF20_3,No20,mature_55_DAA,1,fruit,No20,biological
