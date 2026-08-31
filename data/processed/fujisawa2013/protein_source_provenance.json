@@ -1,0 +1,13 @@
+{
+  "source_doi": "10.1093/gpbjnl/qzaf050",
+  "archive": "qzaf050_supplementary_data.zip",
+  "file": "Table_S2.xlsx",
+  "sha256": "aba18a4175d2a69bff0d1f970124b4837fbc516db789a93376ce10765df0678f",
+  "sheet": "DE_proteome",
+  "header_excel_row": 4,
+  "stage": "BR8/MG",
+  "deduplication": "smallest Adjust P value per canonical gene",
+  "record_definition": "non-missing imported adjusted P value; source-selected table",
+  "source_test_and_threshold_verification": "not independently re-established",
+  "rights": "Original workbook excluded from compact release; third-party rights retained."
+}

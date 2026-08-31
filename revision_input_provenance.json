@@ -1,0 +1,9 @@
+{
+  "GPL15968_gene_universe.csv": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL15968",
+    "original_file": "GPL15968_110707_RDKK310_Slyc_ChIP.ndf.gz",
+    "original_sha256": "c0715a112d8a01e900e019517d0e6686cfbe9145a919300baf7aa16b997739f6",
+    "derivation": "Unique canonical Solyc IDs parsed from the first platform column by ids_from_first_column",
+    "large_source_file_included": false
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "doi": "10.1105/tpc.112.108118",
+  "source_url": "https://doi.org/10.1105/tpc.112.108118",
+  "received_date": "2026-08-31",
+  "acquisition": "user_supplied_files; not an agent download",
+  "pdf_sha256": "701e6fde2775ff888b3976322b037c07cf0305473759fd72363bd5c82dbc5f4f",
+  "zip_sha256": "bcec252a84f703d58e522346f0a540d3f36e0c911e1ab50a92a164cc5f04a375",
+  "attachments": [
+    {
+      "file": "108118_Supplemental_Dataset1.xls",
+      "archive_member": "plcell_v25_2_371_s1/plcell_v25_2_371_s1/108118_Supplemental_Dataset1.xls",
+      "bytes": 787968,
+      "sha256": "f29ce79a629baef4ec61c359e77baef7abeb44c4b5d4fc3586bbf3977cec7d35"
+    },
+    {
+      "file": "108118_Supplemental_Dataset2.xls",
+      "archive_member": "plcell_v25_2_371_s1/plcell_v25_2_371_s1/108118_Supplemental_Dataset2.xls",
+      "bytes": 72704,
+      "sha256": "bd9ed2fa6db85ea2e9961009b58d1e128524b8e21e8026cb8c0f23d459c1a94d"
+    },
+    {
+      "file": "108118_Supplemental_Dataset3.xls",
+      "archive_member": "plcell_v25_2_371_s1/plcell_v25_2_371_s1/108118_Supplemental_Dataset3.xls",
+      "bytes": 31232,
+      "sha256": "32347fddf8e8503637f298157de59a7d553150769cc74da254a8eba0053ceafb"
+    },
+    {
+      "file": "108118_Supplemental_Dataset4.xls",
+      "archive_member": "plcell_v25_2_371_s1/plcell_v25_2_371_s1/108118_Supplemental_Dataset4.xls",
+      "bytes": 54784,
+      "sha256": "48ba1ad7fa1dfd07d49818ed8f266d96d659efad2567ae7588a61f040a8c1ff0"
+    },
+    {
+      "file": "108118_Supplemental_Dataset5.xls",
+      "archive_member": "plcell_v25_2_371_s1/plcell_v25_2_371_s1/108118_Supplemental_Dataset5.xls",
+      "bytes": 253952,
+      "sha256": "c700dbbe1fc4a5e4e7784d59ce5a0ddab5f490c0d90f8482d1b36c9dd34b26b1"
+    },
+    {
+      "file": "108118_Supplemental_Dataset6.xls",
+      "archive_member": "plcell_v25_2_371_s1/plcell_v25_2_371_s1/108118_Supplemental_Dataset6.xls",
+      "bytes": 31744,
+      "sha256": "b1ca16b0b6d1d2fff9a4bd1ca411007efb3c6b4ca6034626577424d936449e9b"
+    },
+    {
+      "file": "108118_Supplemental_Dataset7.xls",
+      "archive_member": "plcell_v25_2_371_s1/plcell_v25_2_371_s1/108118_Supplemental_Dataset7.xls",
+      "bytes": 27136,
+      "sha256": "abac76f797e87d337c5aea9baf383149d078afba7dc397abb4525a4e72d72095"
+    },
+    {
+      "file": "tpc108118SupplementalRev.pdf",
+      "archive_member": "plcell_v25_2_371_s1/plcell_v25_2_371_s1/tpc108118SupplementalRev.pdf",
+      "bytes": 219894,
+      "sha256": "acea2b7fa709b84fa1f58e6eaa37cf85a482646e5770db18a4d1ed86fefc3d19"
+    }
+  ],
+  "dataset2_unique_genes": 241,
+  "positive": 137,
+  "negative": 104,
+  "dataset2_peak_rows": 243,
+  "dataset2_continuation_rows": [
+    47,
+    156
+  ],
+  "dataset1_unique_genes": 1200,
+  "dataset2_subset_of_dataset1": true,
+  "mapping": "exact canonical Solyc IDs, no alias or sequence-model equivalence inference",
+  "footnote_caveat": "Solyc02g085630 retained in the original 241 set; main-text Table 2 footnote g reports later qRT-PCR-based removal. No silent redefinition.",
+  "public_input_scope": "Minimal factual ID/count/numeric extraction and row provenance only. Original PDF, ZIP, XLS and descriptions remain local; no third-party relicensing.",
+  "extracts": {
+    "candidate_peak_rows.csv": "dff076b5cbe6129f026b850e81ebcaeea129cf7cb7dd1b6c3a1398b128d329da",
+    "dataset2_targets.csv": "aaa02c6ab56fbe15d7470db5187718ffd1d084fde3ac13d712e826f763d52e11",
+    "dataset1_gene_index.csv": "384c759403c8847afa8791b1ba06c6481ed8d246b013811697ebc43346820be1",
+    "dataset2_binding_rows.csv": "e192678a9c372e41f1fb8abdb9b68eb3b4a8cedc2274c862b78b3c976c06e4cd"
+  },
+  "GSE40257_peak_sources": [
+    {
+      "file": "GSM989347_63594505_ratio_peaks_mapToFeatures_All_Peaks.txt.gz",
+      "sha256": "e4857524d515099035a3ad85d76e798b2e85be376877b1ae897e1413949e6de2"
+    },
+    {
+      "file": "GSM989348_67459505_ratio_peaks_mapToFeatures_All_Peaks.txt.gz",
+      "sha256": "3fa30baad0157db25aea1525092c10af3375fc5e249b1148c34b225312fadb9f"
+    },
+    {
+      "file": "GSM989349_71972405_ratio_peaks_mapToFeatures_All_Peaks.txt.gz",
+      "sha256": "d9e67e04e8989145b7e6303ebf7faf4c5b723ca51b30fffdefe268bdc97032ba"
+    }
+  ]
+}

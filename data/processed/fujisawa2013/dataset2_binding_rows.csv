@@ -1,0 +1,244 @@
+gene_id,source_row,peak_score_log2,gene_region
+Solyc01g006540,7,1.235,2-kb upstream
+Solyc01g008510,8,1.26,2-kb upstream
+Solyc01g008910,9,1.496,2-kb upstream
+Solyc01g009010,10,1.553,2-kb upstream
+Solyc01g010870,11,1.201,2-kb upstream
+Solyc01g067670,12,1.791,2-kb upstream
+Solyc01g081610,13,1.218,2-kb upstream
+Solyc01g087970,14,1.355,2-kb upstream
+Solyc01g088590,15,1.343,2-kb upstream
+Solyc01g094790,16,1.16,2-kb upstream
+Solyc01g095080,17,1.327,2-kb upstream
+Solyc01g095580,18,1.467,2-kb upstream
+Solyc01g095900,19,"1.29, 1.55",2-kb upstream
+Solyc01g096660,20,0.97,2-kb upstream
+Solyc01g097880,21,"1.61, 1.36",2-kb upstream
+Solyc01g098110,22,1.86,2-kb upstream
+Solyc01g098740,23,1.588,2-kb upstream
+Solyc01g099190,24,1.401,2-kb upstream
+Solyc01g099200,25,1.198,2-kb upstream
+Solyc01g100460,26,1.309,2-kb upstream
+Solyc01g106500,27,1.616,2-kb upstream
+Solyc01g107400,28,1.234,2-kb upstream
+Solyc01g107830,29,1.31,2-kb upstream
+Solyc01g107840,30,1.31,2-kb upstream
+Solyc02g031840,31,1.468,2-kb upstream
+Solyc02g036350,32,1.36,2-kb upstream
+Solyc02g037500,33,"1.41, 1.47",2-kb upstream
+Solyc02g064730,34,"1.26, 1.34",2-kb upstream
+Solyc02g070890,35,1.163,2-kb upstream
+Solyc02g077240,36,1.295,2-kb upstream
+Solyc02g077710,37,1.676,2-kb upstream
+Solyc02g077920,38,1.869,2-kb upstream
+Solyc02g078030,39,1.38,2-kb upstream
+Solyc02g078400,40,1.27,2-kb upstream
+Solyc02g079590,41,1.473,2-kb upstream
+Solyc02g082510,42,1.372,2-kb upstream
+Solyc02g083380,43,1.479,2-kb upstream
+Solyc02g085350,44,1.248,2-kb upstream
+Solyc02g085630,45,1.519,2-kb upstream
+Solyc02g088270,46,1.366,2-kb upstream
+Solyc02g088270,47,1.333,intron
+Solyc02g092640,48,1.234,2-kb upstream
+Solyc03g005020,49,1.483,2-kb upstream
+Solyc03g025970,50,1.506,2-kb upstream
+Solyc03g031920,51,1.446,2-kb upstream
+Solyc03g044300,52,"1.96, 1.76",2-kb upstream
+Solyc03g080020,53,1.348,2-kb upstream
+Solyc03g083090,54,1.47,2-kb upstream
+Solyc03g098290,55,1.849,2-kb upstream
+Solyc03g114360,56,2.044,2-kb upstream
+Solyc03g115500,57,1.613,2-kb upstream
+Solyc03g115930,58,1.219,1-kb downstream
+Solyc03g116630,59,1.376,2-kb upstream
+Solyc03g117870,60,1.466,2-kb upstream
+Solyc03g118060,61,1.783,2-kb upstream
+Solyc04g005020,62,1.489,2-kb upstream
+Solyc04g011520,63,1.227,2-kb upstream
+Solyc04g064610,64,1.154,2-kb upstream
+Solyc04g071150,65,1.198,2-kb upstream
+Solyc04g073950,66,1.347,2-kb upstream
+Solyc04g074850,67,1.436,2-kb upstream
+Solyc04g078810,68,1.29,2-kb upstream
+Solyc04g080250,69,1.853,2-kb upstream
+Solyc04g081900,70,1.72,2-kb upstream
+Solyc05g007770,71,1.105,2-kb upstream
+Solyc05g008110,72,1.09,2-kb upstream
+Solyc05g009120,73,1.561,intron
+Solyc05g012020,74,1.401,2-kb upstream
+Solyc05g050010,75,"1.26, 1.41",2-kb upstream
+Solyc05g050970,76,1.299,2-kb upstream
+Solyc06g008300,77,1.282,2-kb upstream
+Solyc06g009380,78,1.578,2-kb upstream
+Solyc06g051800,79,1.537,2-kb upstream
+Solyc06g059720,80,1.269,2-kb upstream
+Solyc06g068900,81,1.649,2-kb upstream
+Solyc06g072650,82,1.327,2-kb upstream
+Solyc06g073740,83,1.214,2-kb upstream
+Solyc06g074710,84,1.741,2-kb upstream
+Solyc06g076320,85,1.888,2-kb upstream
+Solyc06g082540,86,1.131,2-kb upstream
+Solyc06g084300,87,1.659,1-kb downstream
+Solyc07g041190,88,1.435,2-kb upstream
+Solyc07g047800,89,1.407,2-kb upstream
+Solyc07g052960,90,"1.43, 1.57",2-kb upstream
+Solyc07g054060,91,1.493,2-kb upstream
+Solyc07g054450,92,"1.53, 1.57",2-kb upstream
+Solyc07g056390,93,1.184,2-kb upstream
+Solyc07g064410,94,1.416,2-kb upstream
+Solyc07g064420,95,1.416,2-kb upstream
+Solyc07g065970,96,1.667,1-kb downstream
+Solyc08g005770,97,1.6,2-kb upstream
+Solyc08g014130,98,1.138,2-kb upstream
+Solyc08g061270,99,1.473,2-kb upstream
+Solyc08g062820,100,1.329,2-kb upstream
+Solyc08g063040,101,"1.75, 1.65",2-kb upstream
+Solyc08g066690,102,1.339,2-kb upstream
+Solyc08g066700,103,1.182,2-kb upstream
+Solyc08g075540,104,1.258,2-kb upstream
+Solyc08g077780,105,1.4,2-kb upstream
+Solyc08g078460,106,1.652,2-kb upstream
+Solyc08g079480,107,1.343,2-kb upstream
+Solyc08g080090,108,1.508,2-kb upstream
+Solyc08g080640,109,1.515,2-kb upstream
+Solyc08g080670,110,1.275,2-kb upstream
+Solyc08g081010,111,1.154,2-kb upstream
+Solyc08g081890,112,1.393,2-kb upstream
+Solyc09g008170,113,1.396,2-kb upstream
+Solyc09g010210,114,"1.30, 1.50",2-kb upstream
+Solyc09g015830,115,1.271,2-kb upstream
+Solyc09g061280,116,1.298,2-kb upstream
+Solyc09g065520,117,1.454,2-kb upstream
+Solyc09g074270,118,1.465,2-kb upstream
+Solyc09g082460,119,"2.06, 1.57",2-kb upstream
+Solyc09g082470,120,1.391,2-kb upstream
+Solyc09g089580,121,1.721,2-kb upstream
+Solyc10g006880,122,1.968,2-kb upstream
+Solyc10g008470,123,1.12,2-kb upstream
+Solyc10g008500,124,1.198,2-kb upstream
+Solyc10g009430,125,1.277,2-kb upstream
+Solyc10g079050,126,1.839,2-kb upstream
+Solyc10g081650,127,1.514,2-kb upstream
+Solyc10g083400,128,1.34,2-kb upstream
+Solyc10g085280,129,1.293,2-kb upstream
+Solyc10g085680,130,1.188,2-kb upstream
+Solyc10g085830,131,1.335,2-kb upstream
+Solyc10g085880,132,1.655,2-kb upstream
+Solyc11g007770,133,1.219,2-kb upstream
+Solyc11g011930,134,1.305,2-kb upstream
+Solyc11g065070,135,1.209,2-kb upstream
+Solyc11g072890,136,1.285,2-kb upstream
+Solyc12g005860,137,"1.28, 1.49",2-kb upstream
+Solyc12g005870,138,"1.28, 1.49",2-kb upstream
+Solyc12g010320,139,1.887,2-kb upstream
+Solyc12g013840,140,1.357,2-kb upstream
+Solyc12g096570,141,1.384,2-kb upstream
+Solyc12g098710,142,"1.81, 1.75",2-kb upstream
+Solyc12g099340,143,1.277,2-kb upstream
+Solyc12g099810,144,1.357,2-kb upstream
+Solyc01g007200,146,1.529,1-kb downstream
+Solyc01g088100,147,1.347,2-kb upstream
+Solyc01g090810,148,1.733,2-kb upstream
+Solyc01g091770,149,1.819,2-kb upstream
+Solyc01g095630,150,"1.47, 1.38",2-kb upstream
+Solyc01g099290,151,1.479,2-kb upstream
+Solyc01g102310,152,1.409,2-kb upstream
+Solyc01g104030,153,1.743,2-kb upstream
+Solyc01g104850,154,1.505,2-kb upstream
+Solyc01g109920,155,1.309,exon
+Solyc01g109920,156,1.227,1-kb downstream
+Solyc01g109930,157,"1.31, 1.23",2-kb upstream
+Solyc01g111400,158,1.65,2-kb upstream
+Solyc02g062690,159,1.526,2-kb upstream
+Solyc02g064680,160,1.295,2-kb upstream
+Solyc02g064960,161,1.378,2-kb upstream
+Solyc02g068340,162,1.303,2-kb upstream
+Solyc02g071050,163,1.566,2-kb upstream
+Solyc02g071520,164,1.522,2-kb upstream
+Solyc02g078150,165,1.104,2-kb upstream
+Solyc02g078240,166,1.479,2-kb upstream
+Solyc02g078590,167,1.123,2-kb upstream
+Solyc02g079440,168,1.292,2-kb upstream
+Solyc02g083880,169,1.222,2-kb upstream
+Solyc02g083990,170,"1.39, 1.32",1-kb downstream
+Solyc02g085030,171,1.273,2-kb upstream
+Solyc02g085340,172,1.464,2-kb upstream
+Solyc02g086300,173,1.354,2-kb upstream
+Solyc02g087970,174,"1.48, 1.64",2-kb upstream
+Solyc02g089630,175,1.918,2-kb upstream
+Solyc02g090510,176,"1.25, 1.28",2-kb upstream
+Solyc02g090620,177,1.242,2-kb upstream
+Solyc02g090680,178,1.902,2-kb upstream
+Solyc02g092490,179,1.383,2-kb upstream
+Solyc02g092790,180,1.27,2-kb upstream
+Solyc02g092820,181,1.882,2-kb upstream
+Solyc02g093150,182,"1.67, 1.43",2-kb upstream
+Solyc03g007700,183,1.458,2-kb upstream
+Solyc03g025250,184,1.169,1-kb downstream
+Solyc03g082550,185,"1.50, 1.62",2-kb upstream
+Solyc03g082660,186,1.255,2-kb upstream
+Solyc03g083100,187,1.21,2-kb upstream
+Solyc03g112060,188,1.08,2-kb upstream
+Solyc03g114730,189,"1.71, 1.67",2-kb upstream
+Solyc03g115870,190,1.194,2-kb upstream
+Solyc03g116870,191,1.608,2-kb upstream
+Solyc03g117300,192,1.292,2-kb upstream
+Solyc03g117810,193,"1.53, 1.82",2-kb upstream
+Solyc03g120390,194,"1.61, 1.60",2-kb upstream
+Solyc03g120450,195,1.9,2-kb upstream
+Solyc03g120500,196,1.591,2-kb upstream
+Solyc03g121890,197,1.694,2-kb upstream
+Solyc04g005800,198,1.776,2-kb upstream
+Solyc04g007500,199,1.27,2-kb upstream
+Solyc04g009790,200,1.383,2-kb upstream
+Solyc04g053120,201,1.259,2-kb upstream
+Solyc04g054980,202,1.166,2-kb upstream
+Solyc04g081290,203,1.366,2-kb upstream
+Solyc04g082480,204,2.061,2-kb upstream
+Solyc04g082510,205,1.755,2-kb upstream
+Solyc05g005700,206,1.309,2-kb upstream
+Solyc05g007780,207,1.576,2-kb upstream
+Solyc05g009550,208,1.515,2-kb upstream
+Solyc05g009820,209,1.708,2-kb upstream
+Solyc05g013570,210,"1.35, 1.42",2-kb upstream
+Solyc05g015980,211,1.514,2-kb upstream
+Solyc05g051660,212,1.185,2-kb upstream
+Solyc06g035700,213,1.321,2-kb upstream
+Solyc06g062670,214,1.237,2-kb upstream
+Solyc06g068520,215,1.163,2-kb upstream
+Solyc06g075370,216,1.256,2-kb upstream
+Solyc06g076040,217,1.292,2-kb upstream
+Solyc06g083130,218,1.462,2-kb upstream
+Solyc06g083230,219,1.379,2-kb upstream
+Solyc06g083660,220,1.817,2-kb upstream
+Solyc07g006890,221,1.168,2-kb upstream
+Solyc07g008100,222,1.382,2-kb upstream
+Solyc07g008110,223,1.143,2-kb upstream
+Solyc07g017540,224,1.221,2-kb upstream
+Solyc07g018340,225,1.326,2-kb upstream
+Solyc07g042390,226,1.412,2-kb upstream
+Solyc07g062530,227,1.336,2-kb upstream
+Solyc07g062550,228,1.499,2-kb upstream
+Solyc08g048290,229,1.587,2-kb upstream
+Solyc08g067410,230,1.21,2-kb upstream
+Solyc08g076480,231,1.494,2-kb upstream
+Solyc08g077060,232,1.998,2-kb upstream
+Solyc08g078300,233,1.255,2-kb upstream
+Solyc08g080500,234,"1.42, 1.39",2-kb upstream
+Solyc09g005080,235,1.464,2-kb upstream
+Solyc09g010630,236,1.315,2-kb upstream
+Solyc09g011060,237,1.345,2-kb upstream
+Solyc09g059430,238,1.366,2-kb upstream
+Solyc10g050860,239,1.918,2-kb upstream
+Solyc10g079130,240,1.315,2-kb upstream
+Solyc10g080560,241,1.168,2-kb upstream
+Solyc10g084340,242,1.383,2-kb upstream
+Solyc10g084990,243,1.435,2-kb upstream
+Solyc10g085000,244,1.719,2-kb upstream
+Solyc11g008140,245,1.107,2-kb upstream
+Solyc11g022460,246,1.586,2-kb upstream
+Solyc11g072600,247,1.183,2-kb upstream
+Solyc12g088750,248,1.374,2-kb upstream
+Solyc12g096500,249,1.479,2-kb upstream
+Solyc12g099280,250,1.237,2-kb upstream

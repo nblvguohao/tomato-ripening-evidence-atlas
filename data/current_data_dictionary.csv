@@ -1,0 +1,55 @@
+sheet,field,type,definition,allowed_or_unit
+S1_Studies,planned_role,categorical,Role assigned before the corresponding inference,development; confirmation; validation; context; sensitivity
+S1_Studies,independence_group,identifier,Groups records that cannot be counted as independent studies,project-defined stable label
+S2_Contrasts,early_ordinal / late_ordinal,integer,Study-specific endpoints used to calculate a within-study effect,ordered endpoint codes
+S3_Transfer,spearman_effect_correlation,number,Spearman correspondence between imported and reference effects,-1 to 1
+S3_Transfer,direction_concordance,proportion,Measured signature genes with matching effect sign,0 to 1
+S4_Tissue_contexts,admission_status,categorical,Limits the layer to applicability annotation,tissue_applicability_only
+S6_Candidates,candidate_grade,categorical,Evidence rule applied without refitting,A; B; C
+S6_Candidates,rin_binding_replicates,integer,Independent peak-to-feature tables meeting PEAK_FDR <= 0.05,count
+S6_Candidates,rin1_vs_wt_log2_fold_change,number,Independent 34-DPA rin-1 minus WT expression effect,log2 fold change
+S6_Candidates,protein_support_status,categorical,Protein-measured evidence relative to transcript direction,measured-state label
+S6_Candidates,claim_boundary,text,Required limit on candidate interpretation,must not be removed
+S7_Literature,literature_screen_status,categorical,Result of an exact-ID and alias-bounded search,not a novelty field
+S8_Method_benchmarks,benchmark_scope,categorical,Separates development LOCO from the untouched external test,development_LOCO; untouched_GSE78733
+S9_GO_associations,bh_fdr,number,Benjamini-Hochberg FDR across tested terms,0 to 1
+S9_GO_associations,matched_signature_gene_count,integer,Exact covariate-eligible observed signature frame used in every null comparison,432
+S9_GO_associations,full_frozen_signature_gene_count,integer,"Frozen signature membership, unchanged by matching eligibility",464
+S11_Frozen_atlas,studyshield_score,number,Historical internal score retained for audit,not used for candidate grading
+S11_Frozen_atlas,regulatory_claim_boundary,text,Explicit prohibition on causal interpretation,must not be removed
+S3_Transfer,rank_control_gene_count_measured,integer,Measured genes from the fixed source-effect ranks 501–1000 control,count
+S3_Transfer,rank_control_spearman_effect_correlation,number,Effect-rank correspondence for the fixed rank control,-1 to 1
+S3_Transfer,rank_control_direction_concordance,proportion,Direction agreement for the fixed rank control,0 to 1
+S3_Transfer,signature_minus_control_direction_percentage_points,number,Signature direction agreement minus fixed-control agreement,percentage points
+S3_Transfer,rank_control_definition,text,Historical unconfirmed comparison only. See S12 for symmetric confirmation.,source-effect ranks 501–1000
+S6/S11/revision,display_order,see source table,"Deterministic figure/table ordering, not a validated prioritization score",Defined in revision outputs
+S6/S11/revision,submission_priority_rank,see source table,Deprecated compatibility alias of display_order; no probability interpretation,Defined in revision outputs
+S6/S11/revision,occupancy_and_perturbation_supported,see source table,Gene-associated RIN peaks in >=2 replicates plus independent rin-1 differential expression; same-interval overlap is not required.,Defined in revision outputs
+S6/S11/revision,multiomics_high_confidence,see source table,Deprecated alias of occupancy_and_perturbation_supported; does not require protein evidence,Defined in revision outputs
+S6/S11/revision,four_cohort_direction_consensus,see source table,Two selection sources plus GSE267238 and GSE128739; not four external validations,Defined in revision outputs
+S6/S11/revision,bootstrap_same_direction_frequency,see source table,Fraction of all ordered endpoint-column resamples with reference sign; not a posterior probability,Defined in revision outputs
+S6/S11/revision,effect_bootstrap_p025/p975,see source table,Conditional empirical-bootstrap percentiles on the stated effect scale; small-sample and normalization-fixed,Defined in revision outputs
+S6/S11/revision,rank01,see source table,"Within-sample percentile rank, late-minus-early group means",Defined in revision outputs
+S6/S11/revision,log2cpm,see source table,"log2(CPM+1), late-minus-early group means, not DESeq2 log2 fold change",Defined in revision outputs
+S6/S11/revision,protein_measurement_status,see source table,"Distinguishes source differential record, measured same sign only, measured opposite sign and absent measurement",Defined in revision outputs
+S6/S11/revision,phosphosite_support_status / phosphosite_record_status,see source table,Positive differential-site records only. No record is not a tested negative; the full measurable/testable phosphosite universe was not reconstructed.,Defined in revision outputs
+S6/S11/revision,phosphosite_differential_BR8_vs_MG / phosphosite_differential,see source table,Legacy Boolean indicating presence in a differential-site record table; False does not establish a measured nonsignificant site,Defined in revision outputs
+S6/S11/revision,broad_tissue_measurement_coverage,see source table,True iff measured in at least 9 of the 11 tissue contexts; contains no direction-agreement condition and is not a grade input,Defined in revision outputs
+S6/S11/revision,tissue_same_direction_context_count,see source table,Number of measured tissue contexts matching reference direction; denominator is tissue_context_count,Defined in revision outputs
+S6/S11/revision,GSE235023 role mapping,see source table,Historical planned_role=sensitivity; independent external-transfer sensitivity; does not select the signature or enter frozen candidate grades,Defined in revision outputs
+S12_Comparisons,direction/rho_bootstrap_p025/p975,number,Conditional endpoint-column empirical bootstrap percentiles; not full-pipeline uncertainty,proportion or correlation
+S13_External_context,effect,number,"Microarray percentile-rank endpoint difference or sequencing log2(CPM+1) endpoint difference, as stated by effect_scale; not DESeq2 log2 fold change",platform-specific
+S13_External_context,bootstrap_same_direction_frequency,proportion,Fraction of exact endpoint resamples with reference-matching sign; not gene-wise P value or posterior probability,0 to 1
+S14a_Selection_support,selection_adjusted_enrichment_estimable,boolean,False when full-signature empirical source-selection support is absent; no extrapolated adjusted P value supplied,False
+S14b_Multiplicity,nominal_p / exploratory_bh_three_layers,number,"Separate schema, from crosslayer_multiplicity.csv; never read as assay sample counts",0 to 1
+S16_Worked_query,retained_for_worked_query,boolean,"Post-review illustrative query: frozen flavour/metabolism theme, concordant differential protein, all four external studies measured and same point sign. Not a validated ranking.",True / False
+S6_Candidates; S17_Prior_RIN_sets,prior_241_membership,category,Exact-ID membership in original Dataset 2; absence does not establish novelty or assay coverage.,listed; not_listed_exact_ID
+S6_Candidates; S17_Prior_RIN_sets,prior_1200_membership,category,Exact-ID membership in original Dataset 1; its gene-region assignment differs from frozen reprocessing.,listed; not_listed_exact_ID
+S6_Candidates; S17_Prior_RIN_sets,comparison_class,category,Partition by original gene lists; no new-target or causal inference.,prior_241; prior_binding_only; reprocessed_association_only
+S6_Candidates; S17_Prior_RIN_sets,any_cross_replicate_interval_overlap,boolean,"Any two qualifying intervals from distinct replicates overlap on the same chromosome using inclusive endpoints; auxiliary check, not the original pipeline.",True; False
+S6_Candidates,occupancy_definition_note,text,Frozen gene-level association in >=2 independent tables; not necessarily the same genomic site. Also qualifies legacy binding/occupancy fields.,text
+S18_Peak_coordinates,source_row,integer,"One-based GEO text-file row, including the header. S17 equivalents are prior_dataset1_row and prior_dataset2_row.",row number
+S17_Prior_RIN_sets,cross_allele_sign_compatibility,category,Original positive/negative label versus current lower/higher mutant response; contrasts are not equivalent.,compatible; different; not_assessed
+S18_Peak_coordinates,coordinate_reference,text,Original study genome/annotation context; peak-file assembly label is not independently specified.,genome v2.31; ITAG2
+S18_Peak_coordinates,coordinate_convention,text,Source coordinates retained; zero/one-based convention unverified. Auxiliary overlap uses inclusive endpoints.,source start/end
+S18_Peak_coordinates,coordinate_conversion,text,No liftover or conversion to Ensembl Plants release 63 was performed.,None

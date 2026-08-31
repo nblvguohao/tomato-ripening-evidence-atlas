@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """Evaluate frozen cross-layer enrichments against effect-matched null genes.
 
-The frozen signature was selected on the absolute GSE267238 WT stage effect.
-Consequently, each cross-layer enrichment is evaluated both as a descriptive
-source-universe 2x2 table and against null sets matched for that selection
-variable, endpoint detection, and gene length.  The script never changes the
-signature or an assay-specific admission rule.
+The frozen signature was selected using GSE42783 effects and GSE108415 direction
+confirmation. This historical sensitivity script instead matches GSE267238 WT
+stage effect, endpoint detection and gene length. It does NOT control the source
+selection variables. Selection-support diagnostics are provided separately in
+the post-review revision. No signature or assay admission rule is changed here.
 """
 
 from __future__ import annotations

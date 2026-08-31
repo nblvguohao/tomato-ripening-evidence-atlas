@@ -1,0 +1,16 @@
+field,definition
+display_order,"Deterministic figure/table ordering, not a validated prioritization score"
+submission_priority_rank,Deprecated compatibility alias of display_order; no probability interpretation
+occupancy_and_perturbation_supported,Replicated admitted RIN occupancy plus independent rin-1 differential expression
+multiomics_high_confidence,Deprecated alias of occupancy_and_perturbation_supported; does not require protein evidence
+four_cohort_direction_consensus,Two selection sources plus GSE267238 and GSE128739; not four external validations
+bootstrap_same_direction_frequency,Fraction of all ordered endpoint-column resamples with reference sign; not a posterior probability
+effect_bootstrap_p025/p975,Conditional empirical-bootstrap percentiles on the stated effect scale; small-sample and normalization-fixed
+rank01,"Within-sample percentile rank, late-minus-early group means"
+log2cpm,"log2(CPM+1), late-minus-early group means, not DESeq2 log2 fold change"
+protein_measurement_status,"Distinguishes source differential record, measured same sign only, measured opposite sign and absent measurement"
+phosphosite_support_status / phosphosite_record_status,Positive differential-site records only. No record is not a tested negative; the full measurable/testable phosphosite universe was not reconstructed.
+phosphosite_differential_BR8_vs_MG / phosphosite_differential,Legacy Boolean indicating presence in a differential-site record table; False does not establish a measured nonsignificant site
+broad_tissue_measurement_coverage,True iff measured in at least 9 of the 11 tissue contexts; contains no direction-agreement condition and is not a grade input
+tissue_same_direction_context_count,Number of measured tissue contexts matching reference direction; denominator is tissue_context_count
+GSE235023 role mapping,Historical planned_role=sensitivity; independent external-transfer sensitivity; does not select the signature or enter frozen candidate grades

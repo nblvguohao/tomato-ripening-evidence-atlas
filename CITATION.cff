@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite this repository and the exact commit used, and cite the underlying source studies."
+message: "Please cite this versioned archive and the underlying source studies when reusing the code or processed inputs."
 type: software
 title: "Tomato ripening evidence atlas: analysis code and processed inputs"
 authors:
@@ -19,8 +19,8 @@ authors:
     given-names: Lichuan
 repository-code: "https://github.com/nblvguohao/tomato-ripening-evidence-atlas"
 url: "https://github.com/nblvguohao/tomato-ripening-evidence-atlas"
-version: "1.0.0"
-doi: "10.5281/zenodo.22177891"
-date-released: "2026-08-30"
+version: "1.1.0"
+date-released: 2026-08-31
+doi: "10.5281/zenodo.22185377"
 license: MIT
 abstract: "Analysis code and compact processed inputs for reproducing a multi-cohort tomato ripening signature, evidence atlas and candidate table. Data rights are described separately in DATA_LICENSE.md; third-party rights are retained."

@@ -1,0 +1,4 @@
+layer,nominal_p,exploratory_bh_three_layers,selection_adjusted,matching_variables
+protein_differential,0.000999000999000999,0.002997002997002997,False,"GSE267238 detection, absolute endpoint effect, gene length"
+RIN_occupancy,0.03496503496503497,0.05244755244755245,False,"GSE267238 detection, absolute endpoint effect, gene length"
+rin1_differential_among_occupied_testable_genes,0.14685314685314685,0.14685314685314685,False,"GSE267238 detection, absolute endpoint effect, gene length"
